@@ -1,0 +1,40 @@
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 6rem;
+}
+
+.about-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 50% 20%;
+  margin: 0 auto;
+}
+
+.about-info h3 {
+  font-size: 1.8rem;
+  color: #667eea;
+  margin-bottom: 25px;
+}
+
+.about-info p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
+  color: rgb(113, 113, 113);
+}

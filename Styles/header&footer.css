@@ -1,0 +1,49 @@
+/* header section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 72px;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.name h1 {
+  font-size: 1.6rem;
+  color: rgb(102, 126, 234);
+  margin-left: 10rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 10rem;
+}
+
+.nav-links li {
+  margin-left: 37px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.804);
+}
+
+.nav-links a:hover {
+  color: rgb(102, 126, 234);
+}
+
+/* footer */
+footer {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+}

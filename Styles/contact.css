@@ -1,0 +1,48 @@
+.contact-details {
+  width: 600px;
+}
+
+.contact-note {
+  text-align: center;
+  color: rgb(99, 99, 99);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 250px;
+  border-radius: 20px;
+  background: linear-gradient(106deg, #667eea 0%, #764ba2 100%);
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.contact-card img {
+  width: 3.5rem;
+  margin: 2rem 0;
+}
+
+.contact-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+  color: white;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 2rem;
+}
